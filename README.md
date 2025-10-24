@@ -86,7 +86,7 @@ python ./fea_process/set1_get_test_fasta.py --input_csv ./input/Myoglobin.csv
 Ensure you're in the NetSurfP directory and using the correct environment:
 
 ```bash
-cd ./smffddg/netsurfp-3.0/NetSurfP-3.0_standalone/
+cd ./MuFaDDG/netsurfp-3.0/NetSurfP-3.0_standalone/
 conda activate nsp3
 python nsp3.py -m models/nsp3.pth -i ./MuFaDDG/input/Myoglobin.fasta -o Myoglobin
 ```
