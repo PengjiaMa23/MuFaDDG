@@ -1,5 +1,5 @@
 
-# Predicting the Impact of Missense Mutations on Protein Thermodynamic Stability via Sequence-Based Multiscale Feature Fusion
+# MuFaDDG: A Sequence-Based Multiscale Feature Fusion Framework for Protein Stability Changes Prediction
 
 **MuFaDDG** is a hybrid deep learning framework designed to predict thermodynamic stability changes (ΔΔG) of proteins upon single-point mutations. It integrates both **local-level** and **global-level** representations to improve prediction accuracy. Local features capture residue-level structural and physicochemical properties using traditional computational tools, while global features are derived from pretrained language models that encode full-sequence context. By combining these two perspectives, MuFaDDG provides a comprehensive and interpretable approach for assessing mutation-induced stability changes.
 
